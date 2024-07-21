@@ -1,0 +1,18 @@
+mkdir backend
+cd backend
+npm init -y
+
+npm install express mongoose bcryptjs jsonwebtoken
+npm install --save-dev nodemon
+
+npx create-react-app frontend
+cd frontend
+
+npm install node-sass
+npm install cors
+npm install dotenv
+
+npm install react-router-dom
+npm install axios
+npm install sass
+
